@@ -19,12 +19,14 @@
 // TODO: including this causes "error: expected identifier before '(' token" errors
 //#include "config_common.h"
 
-#define MATRIX_COL_PINS { D5 }
-#define MATRIX_ROW_PINS { B2 }
+#define MATRIX_COL_PINS { B17, B16, D2, A13, D7, D4, A12, D0 }
+#define MATRIX_ROW_PINS { D3, C4, C3, C6, C7, D1, C0, B0, B1, B3, B2, D5, D6, C1}
 #define UNUSED_PINS
+/* #define BACKLIGHT_PIN C5 */
+/* #define BACKLIGHT_LEVELS 1 */
 
 // i2c_master defines
-#define I2C1_SCL 0 // A2 on pinout = B0
-#define I2C1_SDA 1 // A3 on pinout = B1
-#define I2C1_SCL_PAL_MODE PAL_MODE_ALTERNATIVE_2
-#define I2C1_SDA_PAL_MODE PAL_MODE_ALTERNATIVE_2
+/* #define I2C1_SCL 0 // A2 on pinout = B0 */
+/* #define I2C1_SDA 1 // A3 on pinout = B1 */
+/* #define I2C1_SCL_PAL_MODE PAL_MODE_ALTERNATIVE_2 */
+/* #define I2C1_SDA_PAL_MODE PAL_MODE_ALTERNATIVE_2 */
